@@ -21,6 +21,10 @@
   width: 33%;
 }
 
+.top-header .header_bottom .header_column:first-child {
+  color: rgba(255, 255, 255, 0.5);
+}
+
 .top-header .header_column:last-child {
   text-align: right;
 }
