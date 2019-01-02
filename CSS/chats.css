@@ -8,7 +8,7 @@
   border-bottom: 1px solid #ebebeb;
 }
 
-.chats_list.chats_chat: last-child {
+.chats_list.chats_chat:last-child {
   border: none;
 }
 
