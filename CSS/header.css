@@ -23,7 +23,7 @@
   font-size: 12px;
 }
 .top-header .header_bottom {
-  margin: 0 10px;
+  margin: 0 10px 0 10px;
 }
 .top-header .header_column {
   width: 33%;
@@ -31,6 +31,7 @@
 
 .top-header .header_bottom .header_column:first-child {
   color: rgba(255, 255, 255, 0.5);
+  /* cursor: pointer; */
 }
 
 .top-header .header_column:last-child {

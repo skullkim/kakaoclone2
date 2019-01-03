@@ -9,14 +9,14 @@
       integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <!-- stackpath -->
     <title>Chat</title>
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
   </head>
-  <body>
-    <header class = "top-header">
+  <body class="body-chat">
+    <header class="top-header chat-header">
       <div class="header_top">
         <div class="header_column">
           <i class="fa fa-plane" aria-hidden="true"></i>
@@ -25,16 +25,14 @@
         <div class="header_column"><span class="header_time">18:38</span></div>
         <div class="header_column">
           <i class="far fa-moon"></i> <i class="fab fa-bluetooth-b"></i>
-          <space class="header_battery">
+          <span class="header_battery">
             66%<i class="fas fa-battery-full"></i>
-          </space>
+          </span>
         </div>
       </div>
       <div class="header_bottom">
         <div class="header_column">
-          <a href = "chats.html">
-              <i class="fas fa-chevron-left fa-lg"></i>
-          </a>
+          <a href="chats.html"> <i class="fas fa-chevron-left fa-lg"></i> </a>
         </div>
         <div class="header_column"><span class="header_text">Lynn</span></div>
         <div class="header_column">
@@ -46,7 +44,7 @@
       <div class="date-divier">
         <span class="date-divider_text">Wednesday, August 2, 2017</span>
       </div>
-      <div class="chat_message chat_message--from-me">
+      <div class="chat_message chat_message-from-me">
         <span class="chat_message-time">17:55</span>
         <span class="chat_message-body"> Hello! This is a test message. </span>
       </div>
@@ -60,14 +58,13 @@
       </div>
     </main>
     <div class="type-message">
-      <i class="fa fa-plus fa-2x"></i>
-      <div class="type-message_input"> 
-        <input type="text"/> 
-        <i class="fa fa-smile"></i>
-        <span class = "record-message">
-          <i class="fa fa-microphone"></i>
+      <i class="fa fa-plus fa-lg"></i>
+      <div class="type-message_input">
+        <input type="text" /> <i class="fa fa-smile fa-lg"></i>
+        <span class="record-message">
+          <i class="fa fa-microphone fa-lg"></i>
         </span>
-      </idv>
+      </div>
     </div>
   </body>
 </html>

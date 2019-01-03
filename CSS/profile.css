@@ -50,6 +50,7 @@
   flex-direction: column;
   align-items: center;
   margin-right: 15px;
+  cursor: not-allowed;
 }
 
 .profile_action-circle {
