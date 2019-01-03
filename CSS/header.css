@@ -2,6 +2,14 @@
   background-color: #523737;
   color: white;
   padding: 5px 10px 15px 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+
+.top-header a {
+  color: WHITE;
 }
 
 .top-header .header_top,

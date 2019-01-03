@@ -1,0 +1,66 @@
+.top-header--transparent {
+  background-color: transparent;
+}
+
+.profile .profile_header {
+  height: 80vh;
+  background-image: url(https://i.pinimg.com/236x/8f/48/74/8f4874e35399b632e7c9f0576a3484b6--lion-love-kakao.jpg);
+  background-position: center center;
+  background-size: 100%;
+  width: 100%;
+  position: relative;
+  top: -60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profile_header .profile__header-container {
+  text-align: center;
+  position: relative;
+  bottom: -60px;
+}
+
+.profile__header-container img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile .profile_container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile_container input {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.profile_actions,
+.profile_action {
+  display: flex;
+}
+
+.profile_action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.profile_action-circle {
+  background: #f2f2f2;
+  padding: 15px;
+  border-radius: 50%;
+  color: #523737;
+  margin-bottom: 15px;
+}
+
+.profile_action-title {
+  font-size: 12px;
+  font-weight: 600;
+}
