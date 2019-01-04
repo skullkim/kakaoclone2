@@ -17,7 +17,11 @@
   flex-direction: column;
   text-decoration: none;
   color: #c1c1c1c1;
-  /* text-align: center; */
+  transition: transform .1s linear;
+}
+
+.tab-bar .tab-bar_tab:hover{
+  transform: scale(1.1);
 }
 
 .tab-bar .tab-bar_tab i {
