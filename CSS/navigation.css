@@ -11,6 +11,7 @@
 }
 
 .tab-bar .tab-bar_tab {
+  margin-bottom: 10px;
   display: flex;
   align-content: center;
   flex-direction: column;
